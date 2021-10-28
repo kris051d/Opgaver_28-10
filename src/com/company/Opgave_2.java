@@ -23,7 +23,7 @@ public class Opgave_2 {
             e.printStackTrace();
         }
         System.out.println(Arrays.toString(helTal));
-
+        System.out.println(Opgave_1.gennemsnit(helTal, 10));
     }
 }
 
