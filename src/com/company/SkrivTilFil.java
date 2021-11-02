@@ -2,7 +2,6 @@ package com.company;
 
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
-import java.util.Locale;
 import java.util.Scanner;
 
 public class SkrivTilFil {
@@ -15,15 +14,11 @@ public class SkrivTilFil {
 
             Scanner in = new Scanner(System.in);
 
-           // in.useLocale(Locale.US);
-
             x = in.nextInt();
-
             y = in.nextFloat();
-
             s = in.next();
 
-            PrintWriter fil = new PrintWriter("test.txt");
+            PrintWriter fil = new PrintWriter("Test.txt");
 
             fil.println(x);
             fil.println(s);

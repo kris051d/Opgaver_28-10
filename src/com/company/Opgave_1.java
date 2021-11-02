@@ -32,12 +32,6 @@ public class Opgave_1 {
         System.out.println("Der er " + helTal.length + " tal i arrayet.");
 
         System.out.println(gennemsnit(helTal, 10));
-/*
-        // gemmer gennemsnittet, så den kan bruges til videre udregning.
-        double g;
-        g = gennemsnit(helTal, 10);
-        System.out.println(g);
- */
 
     }
 }
