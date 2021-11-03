@@ -6,10 +6,12 @@ import java.util.Scanner;
 
 public class Opgave_4 {
 
+    public int[] intArray = new int[3];
+    public String[] stringArray = new String[3];
+    public float[] floatArray = new float[3];
+
     public void lavArrays() {
-        int[] intArray = new int[3];
-        String[] stringArray = new String[3];
-        float[] floatArray = new float[3];
+
 
         try {
             File myFile = new File("persondata.txt");
